@@ -23,18 +23,18 @@ const Footer = () => {
                 <div className='col'>
                 <h4><FaWheelchair size="1em" alt="wheelchair"/>Wheelchair accessible</h4>
                     <ul>
-                        <li><a href="https://www.sagetraveling.com/edinburgh-accessible-travel">Rolling in Edinburgh</a></li>
-                        <li><a href="https://wheelchairtravel.org/london/">Rolling in London</a></li>
-                        <li><a href="https://disabledaccessibletravel.com/accessible-destinations/ireland/accessible-cork">Accessible Tours in Ireland</a></li>
+                        <li><a href="https://www.sagetraveling.com/edinburgh-accessible-travel" target="_blank" rel="noopener noreferrer">Rolling in Edinburgh</a></li>
+                        <li><a href="https://wheelchairtravel.org/london/" target="_blank" rel="noopener noreferrer">Rolling in London</a></li>
+                        <li><a href="https://disabledaccessibletravel.com/accessible-destinations/ireland/accessible-cork" target="_blank" rel="noopener noreferrer">Accessible Tours in Ireland</a></li>
                         </ul>
                 </div>
                 {/* Column3 */}
                 <div className='col'>
                     <h4><img src={signingicon} alt="signing icon" width="35px"/>BSL content</h4>
                     <ul className='list-unstyled'>
-                        <li><a href="https://www.nhm.ac.uk/events/deaf-led-bsl-behind-the-scenes-tour-spirit-collection.html?fbclid=IwAR2lZwPkv2kc6GhCjpx6j0b9co13-o1E0SwjHWBprNX-Yi2GFq1VtiY8gXs">Deaf led tour at the Natural History Museum London</a></li>
-                        <li><a href="https://www.edinburghcastle.scot/see-and-do/tours-guides-and-itineraries/british-sign-language-tour">BSL Tours at Edinburgh Castle</a></li>
-                        <li><a href="https://www.littlemuseum.ie/irish-sign-language-tour">ISL Tour at Little Museum Dublin</a></li>
+                        <li><a href="https://www.nhm.ac.uk/events/deaf-led-bsl-behind-the-scenes-tour-spirit-collection.html?fbclid=IwAR2lZwPkv2kc6GhCjpx6j0b9co13-o1E0SwjHWBprNX-Yi2GFq1VtiY8gXs" target="_blank" rel="noopener noreferrer">Deaf led tour at the Natural History Museum London</a></li>
+                        <li><a href="https://www.edinburghcastle.scot/see-and-do/tours-guides-and-itineraries/british-sign-language-tour" target="_blank" rel="noopener noreferrer">BSL Tours at Edinburgh Castle</a></li>
+                        <li><a href="https://www.littlemuseum.ie/irish-sign-language-tour" target="_blank" rel="noopener noreferrer">ISL Tour at Little Museum Dublin</a></li>
                     </ul>
                 </div>
                 <hr />
